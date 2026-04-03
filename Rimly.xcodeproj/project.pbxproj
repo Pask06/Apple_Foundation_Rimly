@@ -1,0 +1,761 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		574A6C432F794C9100ABB01E /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 574A6C422F794C9100ABB01E /* WidgetKit.framework */; };
+		574A6C452F794C9100ABB01E /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 574A6C442F794C9100ABB01E /* SwiftUI.framework */; };
+		574A6C562F794C9200ABB01E /* RimlyWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 574A6C402F794C9100ABB01E /* RimlyWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		574A6C5D2F794D5800ABB01E /* RimlyTimerAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574A6C5C2F794D4900ABB01E /* RimlyTimerAttributes.swift */; };
+		574A6C5E2F794D7600ABB01E /* RimlyTimerAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574A6C5C2F794D4900ABB01E /* RimlyTimerAttributes.swift */; };
+		574A6C5F2F794D8300ABB01E /* ThemeColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5766545D2F7575F300F48C82 /* ThemeColors.swift */; };
+		574A6C602F794D8800ABB01E /* ThemeFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5766545E2F7575F300F48C82 /* ThemeFonts.swift */; };
+		574A6C622F79505500ABB01E /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576654552F7575F300F48C82 /* Color+Hex.swift */; };
+		576654612F7575F300F48C82 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576654562F7575F300F48C82 /* Components.swift */; };
+		576654622F7575F300F48C82 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576654592F7575F300F48C82 /* ProgressView.swift */; };
+		576654632F7575F300F48C82 /* ThemeColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5766545D2F7575F300F48C82 /* ThemeColors.swift */; };
+		576654642F7575F300F48C82 /* HeadphoneSuggestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576654582F7575F300F48C82 /* HeadphoneSuggestionView.swift */; };
+		576654652F7575F300F48C82 /* SessionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5766545B2F7575F300F48C82 /* SessionScreen.swift */; };
+		576654662F7575F300F48C82 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576654572F7575F300F48C82 /* ContentView.swift */; };
+		576654672F7575F300F48C82 /* SingingBowl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5766545C2F7575F300F48C82 /* SingingBowl.swift */; };
+		576654682F7575F300F48C82 /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576654542F7575F300F48C82 /* ButtonStyle.swift */; };
+		576654692F7575F300F48C82 /* ThemeFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5766545E2F7575F300F48C82 /* ThemeFonts.swift */; };
+		5766546A2F7575F300F48C82 /* RimlyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5766545A2F7575F300F48C82 /* RimlyApp.swift */; };
+		5766546B2F7575F300F48C82 /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576654552F7575F300F48C82 /* Color+Hex.swift */; };
+		5766546C2F7575F300F48C82 /* Manrope-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 576654502F7575F300F48C82 /* Manrope-Regular.ttf */; };
+		5766546D2F7575F300F48C82 /* PlusJakartaSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 576654512F7575F300F48C82 /* PlusJakartaSans-Bold.ttf */; };
+		5766546E2F7575F300F48C82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 576654532F7575F300F48C82 /* Assets.xcassets */; };
+		5766546F2F7575F300F48C82 /* Manrope-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5766544E2F7575F300F48C82 /* Manrope-Bold.ttf */; };
+		576654702F7575F300F48C82 /* Manrope-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5766544F2F7575F300F48C82 /* Manrope-ExtraBold.ttf */; };
+		5766548F2F75768B00F48C82 /* TCD464Rub.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5766548B2F75768B00F48C82 /* TCD464Rub.mp3 */; };
+		576654902F75768B00F48C82 /* TCG441Rub.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5766548D2F75768B00F48C82 /* TCG441Rub.mp3 */; };
+		576654912F75768B00F48C82 /* MPG56Strike.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 576654842F75768B00F48C82 /* MPG56Strike.mp3 */; };
+		576654922F75768B00F48C82 /* JG_120Strike.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 576654762F75768B00F48C82 /* JG_120Strike.mp3 */; };
+		576654932F75768B00F48C82 /* MAD9Rub.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 576654792F75768B00F48C82 /* MAD9Rub.mp3 */; };
+		576654942F75768B00F48C82 /* MAD9Strike.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5766547A2F75768B00F48C82 /* MAD9Strike.mp3 */; };
+		576654952F75768B00F48C82 /* JD154Rub.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 576654732F75768B00F48C82 /* JD154Rub.mp3 */; };
+		576654962F75768B00F48C82 /* MAF6Strike.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5766547C2F75768B00F48C82 /* MAF6Strike.mp3 */; };
+		576654972F75768B00F48C82 /* SLF_5Rub.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 576654872F75768B00F48C82 /* SLF_5Rub.mp3 */; };
+		576654982F75768B00F48C82 /* JD_26Rub.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 576654712F75768B00F48C82 /* JD_26Rub.mp3 */; };
+		576654992F75768B00F48C82 /* TB478Rub.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 576654892F75768B00F48C82 /* TB478Rub.mp3 */; };
+		5766549A2F75768B00F48C82 /* JG_120Rub.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 576654752F75768B00F48C82 /* JG_120Rub.mp3 */; };
+		5766549B2F75768B00F48C82 /* SLF_5Strike.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 576654882F75768B00F48C82 /* SLF_5Strike.mp3 */; };
+		5766549C2F75768B00F48C82 /* MPF_94Strike.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 576654822F75768B00F48C82 /* MPF_94Strike.mp3 */; };
+		5766549D2F75768B00F48C82 /* MPD_62Strike.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5766547E2F75768B00F48C82 /* MPD_62Strike.mp3 */; };
+		5766549E2F75768B00F48C82 /* SLD_7Strike.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 576654862F75768B00F48C82 /* SLD_7Strike.mp3 */; };
+		5766549F2F75768B00F48C82 /* MPDA62Strike.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 576654802F75768B00F48C82 /* MPDA62Strike.mp3 */; };
+		576654A02F75768B00F48C82 /* MPF_94Rub.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 576654812F75768B00F48C82 /* MPF_94Rub.mp3 */; };
+		576654A12F75768B00F48C82 /* MPD_62Rub.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5766547D2F75768B00F48C82 /* MPD_62Rub.mp3 */; };
+		576654A22F75768B00F48C82 /* MPG56Rub.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 576654832F75768B00F48C82 /* MPG56Rub.mp3 */; };
+		576654A32F75768B00F48C82 /* JD154Strike.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 576654742F75768B00F48C82 /* JD154Strike.mp3 */; };
+		576654A42F75768B00F48C82 /* MAF6Rub.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5766547B2F75768B00F48C82 /* MAF6Rub.mp3 */; };
+		576654A52F75768B00F48C82 /* SLD_7Rub.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 576654852F75768B00F48C82 /* SLD_7Rub.mp3 */; };
+		576654A62F75768B00F48C82 /* TCG441Strike.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5766548E2F75768B00F48C82 /* TCG441Strike.mp3 */; };
+		576654A72F75768B00F48C82 /* MPDA62Rub.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5766547F2F75768B00F48C82 /* MPDA62Rub.mp3 */; };
+		576654A82F75768B00F48C82 /* MAD8Strike.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 576654782F75768B00F48C82 /* MAD8Strike.mp3 */; };
+		576654A92F75768B00F48C82 /* MAD8Rub.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 576654772F75768B00F48C82 /* MAD8Rub.mp3 */; };
+		576654AA2F75768B00F48C82 /* JD_26Strike.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 576654722F75768B00F48C82 /* JD_26Strike.mp3 */; };
+		576654AB2F75768B00F48C82 /* TB478Strike.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5766548A2F75768B00F48C82 /* TB478Strike.mp3 */; };
+		576654AC2F75768B00F48C82 /* TCD464Strike.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5766548C2F75768B00F48C82 /* TCD464Strike.mp3 */; };
+		576654AE2F7577B800F48C82 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576654AD2F7577B800F48C82 /* AudioManager.swift */; };
+		576654B02F7708D200F48C82 /* BowlData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576654AF2F7708CD00F48C82 /* BowlData.swift */; };
+		576654B22F7834F100F48C82 /* DataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576654B12F7834EB00F48C82 /* DataModels.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		574A6C542F794C9200ABB01E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57095A202F6E9CB1005C738D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 574A6C3F2F794C9100ABB01E;
+			remoteInfo = RimlyWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		574A6C5B2F794C9200ABB01E /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				574A6C562F794C9200ABB01E /* RimlyWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		57095A282F6E9CB1005C738D /* Rimly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rimly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		574A6C402F794C9100ABB01E /* RimlyWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = RimlyWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		574A6C422F794C9100ABB01E /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		574A6C442F794C9100ABB01E /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		574A6C5C2F794D4900ABB01E /* RimlyTimerAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RimlyTimerAttributes.swift; sourceTree = "<group>"; };
+		5766544E2F7575F300F48C82 /* Manrope-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-Bold.ttf"; sourceTree = "<group>"; };
+		5766544F2F7575F300F48C82 /* Manrope-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-ExtraBold.ttf"; sourceTree = "<group>"; };
+		576654502F7575F300F48C82 /* Manrope-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-Regular.ttf"; sourceTree = "<group>"; };
+		576654512F7575F300F48C82 /* PlusJakartaSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-Bold.ttf"; sourceTree = "<group>"; };
+		576654532F7575F300F48C82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		576654542F7575F300F48C82 /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
+		576654552F7575F300F48C82 /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
+		576654562F7575F300F48C82 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		576654572F7575F300F48C82 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		576654582F7575F300F48C82 /* HeadphoneSuggestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadphoneSuggestionView.swift; sourceTree = "<group>"; };
+		576654592F7575F300F48C82 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		5766545A2F7575F300F48C82 /* RimlyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RimlyApp.swift; sourceTree = "<group>"; };
+		5766545B2F7575F300F48C82 /* SessionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionScreen.swift; sourceTree = "<group>"; };
+		5766545C2F7575F300F48C82 /* SingingBowl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingingBowl.swift; sourceTree = "<group>"; };
+		5766545D2F7575F300F48C82 /* ThemeColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeColors.swift; sourceTree = "<group>"; };
+		5766545E2F7575F300F48C82 /* ThemeFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeFonts.swift; sourceTree = "<group>"; };
+		576654712F75768B00F48C82 /* JD_26Rub.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = JD_26Rub.mp3; sourceTree = "<group>"; };
+		576654722F75768B00F48C82 /* JD_26Strike.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = JD_26Strike.mp3; sourceTree = "<group>"; };
+		576654732F75768B00F48C82 /* JD154Rub.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = JD154Rub.mp3; sourceTree = "<group>"; };
+		576654742F75768B00F48C82 /* JD154Strike.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = JD154Strike.mp3; sourceTree = "<group>"; };
+		576654752F75768B00F48C82 /* JG_120Rub.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = JG_120Rub.mp3; sourceTree = "<group>"; };
+		576654762F75768B00F48C82 /* JG_120Strike.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = JG_120Strike.mp3; sourceTree = "<group>"; };
+		576654772F75768B00F48C82 /* MAD8Rub.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MAD8Rub.mp3; sourceTree = "<group>"; };
+		576654782F75768B00F48C82 /* MAD8Strike.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MAD8Strike.mp3; sourceTree = "<group>"; };
+		576654792F75768B00F48C82 /* MAD9Rub.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MAD9Rub.mp3; sourceTree = "<group>"; };
+		5766547A2F75768B00F48C82 /* MAD9Strike.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MAD9Strike.mp3; sourceTree = "<group>"; };
+		5766547B2F75768B00F48C82 /* MAF6Rub.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MAF6Rub.mp3; sourceTree = "<group>"; };
+		5766547C2F75768B00F48C82 /* MAF6Strike.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MAF6Strike.mp3; sourceTree = "<group>"; };
+		5766547D2F75768B00F48C82 /* MPD_62Rub.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MPD_62Rub.mp3; sourceTree = "<group>"; };
+		5766547E2F75768B00F48C82 /* MPD_62Strike.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MPD_62Strike.mp3; sourceTree = "<group>"; };
+		5766547F2F75768B00F48C82 /* MPDA62Rub.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MPDA62Rub.mp3; sourceTree = "<group>"; };
+		576654802F75768B00F48C82 /* MPDA62Strike.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MPDA62Strike.mp3; sourceTree = "<group>"; };
+		576654812F75768B00F48C82 /* MPF_94Rub.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MPF_94Rub.mp3; sourceTree = "<group>"; };
+		576654822F75768B00F48C82 /* MPF_94Strike.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MPF_94Strike.mp3; sourceTree = "<group>"; };
+		576654832F75768B00F48C82 /* MPG56Rub.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MPG56Rub.mp3; sourceTree = "<group>"; };
+		576654842F75768B00F48C82 /* MPG56Strike.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MPG56Strike.mp3; sourceTree = "<group>"; };
+		576654852F75768B00F48C82 /* SLD_7Rub.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SLD_7Rub.mp3; sourceTree = "<group>"; };
+		576654862F75768B00F48C82 /* SLD_7Strike.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SLD_7Strike.mp3; sourceTree = "<group>"; };
+		576654872F75768B00F48C82 /* SLF_5Rub.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SLF_5Rub.mp3; sourceTree = "<group>"; };
+		576654882F75768B00F48C82 /* SLF_5Strike.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SLF_5Strike.mp3; sourceTree = "<group>"; };
+		576654892F75768B00F48C82 /* TB478Rub.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TB478Rub.mp3; sourceTree = "<group>"; };
+		5766548A2F75768B00F48C82 /* TB478Strike.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TB478Strike.mp3; sourceTree = "<group>"; };
+		5766548B2F75768B00F48C82 /* TCD464Rub.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TCD464Rub.mp3; sourceTree = "<group>"; };
+		5766548C2F75768B00F48C82 /* TCD464Strike.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TCD464Strike.mp3; sourceTree = "<group>"; };
+		5766548D2F75768B00F48C82 /* TCG441Rub.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TCG441Rub.mp3; sourceTree = "<group>"; };
+		5766548E2F75768B00F48C82 /* TCG441Strike.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TCG441Strike.mp3; sourceTree = "<group>"; };
+		576654AD2F7577B800F48C82 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		576654AF2F7708CD00F48C82 /* BowlData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BowlData.swift; sourceTree = "<group>"; };
+		576654B12F7834EB00F48C82 /* DataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels.swift; sourceTree = "<group>"; };
+		576654B32F783F4C00F48C82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		574A6C572F794C9200ABB01E /* Exceptions for "RimlyWidget" folder in "RimlyWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 574A6C3F2F794C9100ABB01E /* RimlyWidgetExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		574A6C462F794C9100ABB01E /* RimlyWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				574A6C572F794C9200ABB01E /* Exceptions for "RimlyWidget" folder in "RimlyWidgetExtension" target */,
+			);
+			path = RimlyWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57095A252F6E9CB1005C738D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		574A6C3D2F794C9100ABB01E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				574A6C452F794C9100ABB01E /* SwiftUI.framework in Frameworks */,
+				574A6C432F794C9100ABB01E /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57095A1F2F6E9CB1005C738D = {
+			isa = PBXGroup;
+			children = (
+				574A6C5C2F794D4900ABB01E /* RimlyTimerAttributes.swift */,
+				5766545F2F7575F300F48C82 /* Rimly */,
+				574A6C462F794C9100ABB01E /* RimlyWidget */,
+				574A6C412F794C9100ABB01E /* Frameworks */,
+				57095A292F6E9CB1005C738D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57095A292F6E9CB1005C738D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57095A282F6E9CB1005C738D /* Rimly.app */,
+				574A6C402F794C9100ABB01E /* RimlyWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		574A6C412F794C9100ABB01E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				574A6C422F794C9100ABB01E /* WidgetKit.framework */,
+				574A6C442F794C9100ABB01E /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		576654522F7575F300F48C82 /* FONTS */ = {
+			isa = PBXGroup;
+			children = (
+				5766544E2F7575F300F48C82 /* Manrope-Bold.ttf */,
+				5766544F2F7575F300F48C82 /* Manrope-ExtraBold.ttf */,
+				576654502F7575F300F48C82 /* Manrope-Regular.ttf */,
+				576654512F7575F300F48C82 /* PlusJakartaSans-Bold.ttf */,
+			);
+			path = FONTS;
+			sourceTree = "<group>";
+		};
+		5766545F2F7575F300F48C82 /* Rimly */ = {
+			isa = PBXGroup;
+			children = (
+				576654B32F783F4C00F48C82 /* Info.plist */,
+				576654522F7575F300F48C82 /* FONTS */,
+				576654602F7575F300F48C82 /* AudioBowls */,
+				576654532F7575F300F48C82 /* Assets.xcassets */,
+				5766545A2F7575F300F48C82 /* RimlyApp.swift */,
+				576654572F7575F300F48C82 /* ContentView.swift */,
+				576654AF2F7708CD00F48C82 /* BowlData.swift */,
+				576654542F7575F300F48C82 /* ButtonStyle.swift */,
+				576654552F7575F300F48C82 /* Color+Hex.swift */,
+				576654562F7575F300F48C82 /* Components.swift */,
+				576654582F7575F300F48C82 /* HeadphoneSuggestionView.swift */,
+				576654592F7575F300F48C82 /* ProgressView.swift */,
+				5766545B2F7575F300F48C82 /* SessionScreen.swift */,
+				576654B12F7834EB00F48C82 /* DataModels.swift */,
+				5766545C2F7575F300F48C82 /* SingingBowl.swift */,
+				576654AD2F7577B800F48C82 /* AudioManager.swift */,
+				5766545D2F7575F300F48C82 /* ThemeColors.swift */,
+				5766545E2F7575F300F48C82 /* ThemeFonts.swift */,
+			);
+			path = Rimly;
+			sourceTree = "<group>";
+		};
+		576654602F7575F300F48C82 /* AudioBowls */ = {
+			isa = PBXGroup;
+			children = (
+				576654712F75768B00F48C82 /* JD_26Rub.mp3 */,
+				576654722F75768B00F48C82 /* JD_26Strike.mp3 */,
+				576654732F75768B00F48C82 /* JD154Rub.mp3 */,
+				576654742F75768B00F48C82 /* JD154Strike.mp3 */,
+				576654752F75768B00F48C82 /* JG_120Rub.mp3 */,
+				576654762F75768B00F48C82 /* JG_120Strike.mp3 */,
+				576654772F75768B00F48C82 /* MAD8Rub.mp3 */,
+				576654782F75768B00F48C82 /* MAD8Strike.mp3 */,
+				576654792F75768B00F48C82 /* MAD9Rub.mp3 */,
+				5766547A2F75768B00F48C82 /* MAD9Strike.mp3 */,
+				5766547B2F75768B00F48C82 /* MAF6Rub.mp3 */,
+				5766547C2F75768B00F48C82 /* MAF6Strike.mp3 */,
+				5766547D2F75768B00F48C82 /* MPD_62Rub.mp3 */,
+				5766547E2F75768B00F48C82 /* MPD_62Strike.mp3 */,
+				5766547F2F75768B00F48C82 /* MPDA62Rub.mp3 */,
+				576654802F75768B00F48C82 /* MPDA62Strike.mp3 */,
+				576654812F75768B00F48C82 /* MPF_94Rub.mp3 */,
+				576654822F75768B00F48C82 /* MPF_94Strike.mp3 */,
+				576654832F75768B00F48C82 /* MPG56Rub.mp3 */,
+				576654842F75768B00F48C82 /* MPG56Strike.mp3 */,
+				576654852F75768B00F48C82 /* SLD_7Rub.mp3 */,
+				576654862F75768B00F48C82 /* SLD_7Strike.mp3 */,
+				576654872F75768B00F48C82 /* SLF_5Rub.mp3 */,
+				576654882F75768B00F48C82 /* SLF_5Strike.mp3 */,
+				576654892F75768B00F48C82 /* TB478Rub.mp3 */,
+				5766548A2F75768B00F48C82 /* TB478Strike.mp3 */,
+				5766548B2F75768B00F48C82 /* TCD464Rub.mp3 */,
+				5766548C2F75768B00F48C82 /* TCD464Strike.mp3 */,
+				5766548D2F75768B00F48C82 /* TCG441Rub.mp3 */,
+				5766548E2F75768B00F48C82 /* TCG441Strike.mp3 */,
+			);
+			path = AudioBowls;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57095A272F6E9CB1005C738D /* Rimly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57095A332F6E9CB1005C738D /* Build configuration list for PBXNativeTarget "Rimly" */;
+			buildPhases = (
+				57095A242F6E9CB1005C738D /* Sources */,
+				57095A252F6E9CB1005C738D /* Frameworks */,
+				57095A262F6E9CB1005C738D /* Resources */,
+				574A6C5B2F794C9200ABB01E /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				574A6C552F794C9200ABB01E /* PBXTargetDependency */,
+			);
+			name = Rimly;
+			packageProductDependencies = (
+			);
+			productName = Breath;
+			productReference = 57095A282F6E9CB1005C738D /* Rimly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		574A6C3F2F794C9100ABB01E /* RimlyWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 574A6C582F794C9200ABB01E /* Build configuration list for PBXNativeTarget "RimlyWidgetExtension" */;
+			buildPhases = (
+				574A6C3C2F794C9100ABB01E /* Sources */,
+				574A6C3D2F794C9100ABB01E /* Frameworks */,
+				574A6C3E2F794C9100ABB01E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				574A6C462F794C9100ABB01E /* RimlyWidget */,
+			);
+			name = RimlyWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = RimlyWidgetExtension;
+			productReference = 574A6C402F794C9100ABB01E /* RimlyWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57095A202F6E9CB1005C738D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2630;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					57095A272F6E9CB1005C738D = {
+						CreatedOnToolsVersion = 26.3;
+					};
+					574A6C3F2F794C9100ABB01E = {
+						CreatedOnToolsVersion = 26.3;
+					};
+				};
+			};
+			buildConfigurationList = 57095A232F6E9CB1005C738D /* Build configuration list for PBXProject "Rimly" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57095A1F2F6E9CB1005C738D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 57095A292F6E9CB1005C738D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57095A272F6E9CB1005C738D /* Rimly */,
+				574A6C3F2F794C9100ABB01E /* RimlyWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57095A262F6E9CB1005C738D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5766546C2F7575F300F48C82 /* Manrope-Regular.ttf in Resources */,
+				5766546D2F7575F300F48C82 /* PlusJakartaSans-Bold.ttf in Resources */,
+				5766546E2F7575F300F48C82 /* Assets.xcassets in Resources */,
+				5766546F2F7575F300F48C82 /* Manrope-Bold.ttf in Resources */,
+				5766548F2F75768B00F48C82 /* TCD464Rub.mp3 in Resources */,
+				576654902F75768B00F48C82 /* TCG441Rub.mp3 in Resources */,
+				576654912F75768B00F48C82 /* MPG56Strike.mp3 in Resources */,
+				576654922F75768B00F48C82 /* JG_120Strike.mp3 in Resources */,
+				576654932F75768B00F48C82 /* MAD9Rub.mp3 in Resources */,
+				576654942F75768B00F48C82 /* MAD9Strike.mp3 in Resources */,
+				576654952F75768B00F48C82 /* JD154Rub.mp3 in Resources */,
+				576654962F75768B00F48C82 /* MAF6Strike.mp3 in Resources */,
+				576654972F75768B00F48C82 /* SLF_5Rub.mp3 in Resources */,
+				576654982F75768B00F48C82 /* JD_26Rub.mp3 in Resources */,
+				576654992F75768B00F48C82 /* TB478Rub.mp3 in Resources */,
+				5766549A2F75768B00F48C82 /* JG_120Rub.mp3 in Resources */,
+				5766549B2F75768B00F48C82 /* SLF_5Strike.mp3 in Resources */,
+				5766549C2F75768B00F48C82 /* MPF_94Strike.mp3 in Resources */,
+				5766549D2F75768B00F48C82 /* MPD_62Strike.mp3 in Resources */,
+				5766549E2F75768B00F48C82 /* SLD_7Strike.mp3 in Resources */,
+				5766549F2F75768B00F48C82 /* MPDA62Strike.mp3 in Resources */,
+				576654A02F75768B00F48C82 /* MPF_94Rub.mp3 in Resources */,
+				576654A12F75768B00F48C82 /* MPD_62Rub.mp3 in Resources */,
+				576654A22F75768B00F48C82 /* MPG56Rub.mp3 in Resources */,
+				576654A32F75768B00F48C82 /* JD154Strike.mp3 in Resources */,
+				576654A42F75768B00F48C82 /* MAF6Rub.mp3 in Resources */,
+				576654A52F75768B00F48C82 /* SLD_7Rub.mp3 in Resources */,
+				576654A62F75768B00F48C82 /* TCG441Strike.mp3 in Resources */,
+				576654A72F75768B00F48C82 /* MPDA62Rub.mp3 in Resources */,
+				576654A82F75768B00F48C82 /* MAD8Strike.mp3 in Resources */,
+				576654A92F75768B00F48C82 /* MAD8Rub.mp3 in Resources */,
+				576654AA2F75768B00F48C82 /* JD_26Strike.mp3 in Resources */,
+				576654AB2F75768B00F48C82 /* TB478Strike.mp3 in Resources */,
+				576654AC2F75768B00F48C82 /* TCD464Strike.mp3 in Resources */,
+				576654702F7575F300F48C82 /* Manrope-ExtraBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		574A6C3E2F794C9100ABB01E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57095A242F6E9CB1005C738D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				576654612F7575F300F48C82 /* Components.swift in Sources */,
+				576654622F7575F300F48C82 /* ProgressView.swift in Sources */,
+				576654632F7575F300F48C82 /* ThemeColors.swift in Sources */,
+				576654642F7575F300F48C82 /* HeadphoneSuggestionView.swift in Sources */,
+				576654652F7575F300F48C82 /* SessionScreen.swift in Sources */,
+				576654662F7575F300F48C82 /* ContentView.swift in Sources */,
+				576654AE2F7577B800F48C82 /* AudioManager.swift in Sources */,
+				576654672F7575F300F48C82 /* SingingBowl.swift in Sources */,
+				576654682F7575F300F48C82 /* ButtonStyle.swift in Sources */,
+				576654692F7575F300F48C82 /* ThemeFonts.swift in Sources */,
+				5766546A2F7575F300F48C82 /* RimlyApp.swift in Sources */,
+				576654B22F7834F100F48C82 /* DataModels.swift in Sources */,
+				574A6C5E2F794D7600ABB01E /* RimlyTimerAttributes.swift in Sources */,
+				5766546B2F7575F300F48C82 /* Color+Hex.swift in Sources */,
+				576654B02F7708D200F48C82 /* BowlData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		574A6C3C2F794C9100ABB01E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				574A6C602F794D8800ABB01E /* ThemeFonts.swift in Sources */,
+				574A6C5D2F794D5800ABB01E /* RimlyTimerAttributes.swift in Sources */,
+				574A6C5F2F794D8300ABB01E /* ThemeColors.swift in Sources */,
+				574A6C622F79505500ABB01E /* Color+Hex.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		574A6C552F794C9200ABB01E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 574A6C3F2F794C9100ABB01E /* RimlyWidgetExtension */;
+			targetProxy = 574A6C542F794C9200ABB01E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		57095A312F6E9CB1005C738D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		57095A322F6E9CB1005C738D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57095A342F6E9CB1005C738D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 855QV9YKK8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Rimly/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Rimly;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ed.Rimly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57095A352F6E9CB1005C738D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 855QV9YKK8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Rimly/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Rimly;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ed.Rimly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		574A6C592F794C9200ABB01E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 855QV9YKK8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RimlyWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = RimlyWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ed.Rimly.RimlyWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		574A6C5A2F794C9200ABB01E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 855QV9YKK8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RimlyWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = RimlyWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ed.Rimly.RimlyWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57095A232F6E9CB1005C738D /* Build configuration list for PBXProject "Rimly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57095A312F6E9CB1005C738D /* Debug */,
+				57095A322F6E9CB1005C738D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57095A332F6E9CB1005C738D /* Build configuration list for PBXNativeTarget "Rimly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57095A342F6E9CB1005C738D /* Debug */,
+				57095A352F6E9CB1005C738D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		574A6C582F794C9200ABB01E /* Build configuration list for PBXNativeTarget "RimlyWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				574A6C592F794C9200ABB01E /* Debug */,
+				574A6C5A2F794C9200ABB01E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57095A202F6E9CB1005C738D /* Project object */;
+}
